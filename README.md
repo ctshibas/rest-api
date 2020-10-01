@@ -1,2 +1,2 @@
-# rest-api
- creating rest api with mongodb, express and node.js
+# rest-api-tutorial
+ using mongodb, express and node.js to create small api

@@ -1,0 +1,36 @@
+{
+  "name": "rest-api-tutorial",
+  "version": "1.0.0",
+  "description": "used to create my own API with the ME_N stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctshibas/node-repo.git"
+  },
+  "keywords": [
+    "API",
+    "rest",
+    "mongoDB",
+    "express.js",
+    "CLI"
+  ],
+  "author": "Corneille Tshibasu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctshibas/node-repo/issues"
+  },
+  "homepage": "https://github.com/ctshibas/node-repo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
